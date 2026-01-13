@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -30,6 +29,10 @@
       max-width: 1000px;
       margin: auto;
     }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
     .catalogo {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -42,6 +45,32 @@
     }
     .fragrance h3 {
       margin-top: 0;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-top: 20px;
+    }
+    .item {
+      background-color: #111;
+      border: 1px solid #d4af37;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .item img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+    .item h3 {
+      color: #d4af37;
+      margin: 10px 0 5px;
+    }
+    .item p {
+      color: #ccc;
+      font-size: 0.95em;
     }
     footer {
       text-align: center;
@@ -89,6 +118,33 @@
         <p><strong>Notas principales:</strong> Ámbar dulce, vainilla, especias suaves, maderas elegantes</p>
         <p><strong>Estilo:</strong> Lujoso, sofisticado</p>
         <p><strong>Ocasión:</strong> Celebraciones, cenas especiales</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="catalogo-visual">
+    <h2>Catálogo visual</h2>
+    <p>Descubre nuestras fragancias en formato 5 ml y 10 ml</p>
+    <div class="gallery">
+      <div class="item">
+        <img src="amber-oud-gold.jpg" alt="Amber Oud Gold Edition">
+        <h3>Al Haramain Amber Oud Gold Edition</h3>
+        <p>Ámbar dulce, vainilla y maderas elegantes. Ideal para celebraciones y cenas especiales.</p>
+      </div>
+      <div class="item">
+        <img src="asad-lattafa.jpg" alt="Lattafa Asad">
+        <h3>Lattafa Asad</h3>
+        <p>Vainilla cálida, especias dulces y maderas profundas. Seductor y envolvente para citas nocturnas.</p>
+      </div>
+      <div class="item">
+        <img src="hawas-ice.jpg" alt="Rasasi Hawas Ice">
+        <h3>Rasasi Hawas Ice</h3>
+        <p>Cítricos frescos y notas acuáticas. Refrescante y juvenil para uso diario y días cálidos.</p>
+      </div>
+      <div class="item">
+        <img src="fakhar-lattafa.jpg" alt="Lattafa Fakhar">
+        <h3>Lattafa Fakhar</h3>
+        <p>Especias orientales y ámbar intenso. Poderoso y sofisticado para noches elegantes.</p>
       </div>
     </div>
   </section>
