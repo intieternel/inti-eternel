@@ -33,18 +33,24 @@
       text-align: center;
       margin-bottom: 20px;
     }
-    .catalogo {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-    }
-    .fragrance {
+    #descripcion {
+      background-color: #111;
       border: 1px solid #d4af37;
-      padding: 20px;
+      padding: 40px;
       border-radius: 8px;
+      text-align: center;
+      margin: 40px auto;
+      max-width: 900px;
     }
-    .fragrance h3 {
-      margin-top: 0;
+    #descripcion h2 {
+      color: #d4af37;
+      margin-bottom: 20px;
+    }
+    #descripcion p {
+      color: #ccc;
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 15px;
     }
     .gallery {
       display: grid;
@@ -91,37 +97,21 @@
     <p>Decants que revelan tu esencia</p>
   </header>
 
-  <section>
-    <h2>Catálogo</h2>
-    <p>Formatos disponibles: 5 ml y 10 ml</p>
-    <div class="catalogo">
-      <div class="fragrance">
-        <h3>Lattafa Fakhar 🌿</h3>
-        <p><strong>Notas principales:</strong> Especias orientales, maderas intensas, ámbar</p>
-        <p><strong>Estilo:</strong> Sofisticado, poderoso</p>
-        <p><strong>Ocasión:</strong> Noches elegantes, eventos formales</p>
-      </div>
-      <div class="fragrance">
-        <h3>Lattafa Asad 🔥</h3>
-        <p><strong>Notas principales:</strong> Vainilla cálida, especias dulces, maderas profundas</p>
-        <p><strong>Estilo:</strong> Envolvente, seductor</p>
-        <p><strong>Ocasión:</strong> Citas, salidas nocturnas</p>
-      </div>
-      <div class="fragrance">
-        <h3>Rasasi Hawas Ice ❄️</h3>
-        <p><strong>Notas principales:</strong> Cítricos frescos, acuáticos, aromáticos</p>
-        <p><strong>Estilo:</strong> Moderno, juvenil, refrescante</p>
-        <p><strong>Ocasión:</strong> Uso diario, oficina, días cálidos</p>
-      </div>
-      <div class="fragrance">
-        <h3>Al Haramain Amber Oud Gold ⭐</h3>
-        <p><strong>Notas principales:</strong> Ámbar dulce, vainilla, especias suaves, maderas elegantes</p>
-        <p><strong>Estilo:</strong> Lujoso, sofisticado</p>
-        <p><strong>Ocasión:</strong> Celebraciones, cenas especiales</p>
-      </div>
-    </div>
+  <!-- Descripción llamativa del negocio -->
+  <section id="descripcion">
+    <h2>Bienvenido a INTI Éternel</h2>
+    <p>
+      INTI Éternel no es solo una marca de decants, es una experiencia sensorial que revela tu esencia.  
+      Cada fragancia que seleccionamos es un viaje hacia lo exclusivo, lo místico y lo eterno.  
+      Nos apasiona transformar aromas en historias, y ofrecerte la posibilidad de descubrir perfumes de lujo en formatos accesibles, sin perder la magia de lo auténtico.
+    </p>
+    <p>
+      Con INTI Éternel, cada gota es un ritual, cada nota es un recuerdo, y cada decant es una invitación a expresar quién eres.  
+      Déjate envolver por la elegancia, la sofisticación y el poder de los aromas que trascienden el tiempo.
+    </p>
   </section>
 
+  <!-- Catálogo visual con imágenes -->
   <section id="catalogo-visual">
     <h2>Catálogo visual</h2>
     <p>Descubre nuestras fragancias en formato 5 ml y 10 ml</p>
